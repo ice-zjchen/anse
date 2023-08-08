@@ -1,5 +1,5 @@
 {
-  "buildCommand": "OUTPUT=vercel astro build",
+  "buildCommand": "OUTPUT=vercel node create-env.js && astro build",
   "github": {
     "silent": true
   }
