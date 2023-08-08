@@ -9,4 +9,4 @@ const envList = [
   'OPENAI_API_MODEL'
 ];
 
-fs.writeFileSync('env', envList.map(e => `${e}=${process.env[e] || ''}`).join('\n'));
+fs.writeFileSync('.env', envList.map(e => `${e}=${process.env[e] || ''}`).join('\n'));
